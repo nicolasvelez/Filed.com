@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Html version | Angulr</title>
+    <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="../libs/assets/animate.css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="../libs/assets/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="../libs/assets/simple-line-icons/css/simple-line-icons.css" type="text/css" />
+    <link rel="stylesheet" href="../libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/material-design-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <div class="app app-header-fixed ">
+
+
+        <!-- header -->
+        <header id="header" class="app-header navbar" role="menu">
+            <!-- navbar header -->
+            <div class="navbar-header bg-white">
+                <button class="pull-right visible-xs dk" ui-toggle-class="show" target=".navbar-collapse">
+                  <i class="glyphicon glyphicon-align-justify"></i>
+                </button>
+                <button class="pull-right visible-xs dk">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                      <i class="icon-bubble fa-fw"></i>
+                      <span class="badge badge-sm up bg-danger">3</span>
+                  </a>
+                  <!-- dropdown notifications -->
+                  <div class="collapse dropdown-menu w-full">
+                      <div class="panel bg-white">
+                          <div class="panel-heading b-light bg-light">
+                              <strong>You have <span>3</span> notifications</strong><span class="links pull-right  m-b-n-sm m-r-sm">View All</span>
+                          </div>
+                          <div class="list-group">
+                              <a href class="list-group-item">
+                                  <span class="mdi-navigation-close pull-right wrapper"></span>
+                                  <span class="pull-left m-r thumb-sm">
+                                  <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                </span>
+                                  <span class="clear block m-b-none">
+                                  Use awesome animate.css<br>
+                                  <small class="text-muted">10 minutes ago</small>
+                                </span>
+                              </a>
+                              <a href class="list-group-item">
+                                  <span class="mdi-navigation-close pull-right wrapper"></span>
+                                  <span class="pull-left m-r thumb-sm">
+                                  <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                </span>
+                                  <span class="clear block m-b-none">
+                                  Use awesome animate.css<br>
+                                  <small class="text-muted">10 minutes ago</small>
+                                </span>
+                              </a>
+                              <a href class="list-group-item">
+                                  <span class="mdi-navigation-close pull-right wrapper"></span>
+                                  <span class="pull-left m-r thumb-sm">
+                                  <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                </span>
+                                  <span class="clear block m-b-none">
+                                  Use awesome animate.css<br>
+                                  <small class="text-muted">10 minutes ago</small>
+                                </span>
+                              </a>
+                          </div>
+                           <div class="panel-footer text-sm text-center succes bg-light">
+                              <a href="#" class="links" data-toggle="class:hide">Dismise All</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- / dropdown notifications-->
+        </button>
+                <!-- brand -->
+                <a href="#/" class="navbar-brand text-lt m-xxs">
+                    <img src="img/F.png" alt="." class="m-l-xl">
+                    <img src="img/F.png" alt="." class="hide">
+                    <span class="hidden-folded m-l-xs">Filed</span>
+                </a>
+                <!-- / brand -->
+            </div>
+            <!-- / navbar header -->
+
+            <!-- navbar collapse -->
+            <div class="collapse pos-rlt navbar-collapse bg-white-only">
+                <!-- buttons -->
+                <div class="nav navbar-nav hidden-xs">
+
+                </div>
+                <!-- / buttons -->
+
+                <!-- link and dropdown -->
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle vLines">
+                            <span translate="header.navbar.new.NEW" class="">NoWinNoFee.or.uk</span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu w-xl" role="menu">
+                          <div class="panel bg-white">
+                              <div class="panel-heading b-light bg-light">
+                                  <strong>Personal Accounts</strong>
+                              </div>
+                              <div class="list-group">
+                                  <a href class="list-group-item">
+                                      <span class="mdi-action-done pull-right wrapper"></span>
+                                      <span class="pull-left m-r thumb-sm">
+                                      <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                      </span>
+                                      <span class="clear block m-b-none">
+                                      <strong>adversent</strong><br>
+                                        <small class="text-muted">Account No.: 1234654323457865</small>
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="mdi-action-done pull-right wrapper"></span>
+                                      <span class="pull-left m-r thumb-sm">
+                                      <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                      </span>
+                                      <span class="clear block m-b-none">
+                                      <strong>adversent</strong><br>
+                                        <small class="text-muted">Account No.: 1234654323457865</small>
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="mdi-action-done pull-right wrapper"></span>
+                                      <span class="pull-left m-r thumb-sm">
+                                      <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                      </span>
+                                      <span class="clear block m-b-none">
+                                      <strong>adversent</strong><br>
+                                        <small class="text-muted">Account No.: 1234654323457865</small>
+                                      </span>
+                                  </a>
+                              </div>
+                          </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mLinks wrapper-md" translate="">Campaigns</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mLinks wrapper-md" translate="">Optimize</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mLinks wrapper-md" translate="">Reports</a>
+                    </li>
+                </ul>
+                <!-- / link and dropdown -->
+
+                <!-- nabar right -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle clear">
+                            <span class="thumb-xxs avatar pull-left m-r-sm m-t-n-xs m-b-n-sm m-l-sm">
+                              <img src="img/pdlogo.png" alt="...">
+                            </span>
+                            <span class="hidden-sm hidden-md">PurusDigital</span> <b class="caret"></b>
+                        </a>
+                        <!-- dropdown user-->
+                        <ul class="dropdown-menu w-xl r">
+                            <div class="panel bg-white">
+                                <div class="panel-heading b-light bg-light hidden-xs">
+                                    <strong>User Accounts</strong><span class="links pull-right  m-b-n-sm m-r-sm">Log out</span>
+                                </div>
+                                <div class="list-group hidden-xs">
+                                    <a href class="list-group-item">
+                                        <span class="mdi-action-done pull-right wrapper"></span>
+                                        <span class="pull-left m-r thumb-sm">
+                                        <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                        </span>
+                                        <span class="clear block m-b-none">
+                                        <strong>adversent</strong><br>
+                                          <small class="text-muted">social@adversent.com</small>
+                                        </span>
+                                    </a>
+                                    <a href class="list-group-item">
+                                        <span class="mdi-action-done pull-right wrapper"></span>
+                                        <span class="pull-left m-r thumb-sm">
+                                        <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                        </span>
+                                        <span class="clear block m-b-none">
+                                        <strong>adversent</strong><br>
+                                          <small class="text-muted">social@adversent.com</small>
+                                        </span>
+                                    </a>
+                                    <a href class="list-group-item">
+                                        <span class="mdi-action-done pull-right wrapper"></span>
+                                        <span class="pull-left m-r thumb-sm">
+                                        <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                        </span>
+                                        <span class="clear block m-b-none">
+                                        <strong>adversent</strong><br>
+                                          <small class="text-muted">social@adversent.com</small>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!-- dropdown mobile -->
+                                <div class="panel bg-white visible-xs">
+                                    <div class="list-group">
+                                        <a href class="list-group-item">
+                                            <span class="pull-left m-r thumb-sm">
+                                              <i class="icon-question fa-fw"></i>
+                                            </span>
+                                            <span class="clear block m-b-none text-sm">
+                                            Help
+                                            </span>
+                                        </a>
+                                        <a href class="list-group-item">
+                                            <span class="pull-left m-r thumb-sm">
+                                              <i class="icon-settings fa-fw"></i>
+                                            </span>
+                                            <span class="clear block m-b-none text-sm">
+                                            Settings
+                                            </span>
+                                        </a>
+                                        <div class="panel-footer text-sm text-center succes bg-light">
+                                           <a href="#" class="links" data-toggle="class:hide">Log out</a>
+                                       </div>
+                                    </div>
+                                </div>
+                            <!-- / dropdown mobile -->
+                        </ul>
+                        <!-- / dropdown user-->
+                    </li>
+
+
+                    <ul class="nav navbar-nav vLines hidden-xs">
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                <i class="icon-settings fa-fw"></i>
+                            </a>
+
+                            <!-- dropdown  settings-->
+                            <div class="dropdown-menu w-m">
+                                <div class="panel bg-white">
+                                  <div class="panel-heading b-light bg-light">
+                                      <strong>Settings </strong>
+                                  </div>
+                                    <div class="list-group">
+                                        <a href class="list-group-item">
+                                            <span class="pull-left m-r thumb-sm">
+                                              <span class="mdi-action-face-unlock wrapper"></span>
+                                            </span>
+                                            <span class="clear block m-b-none text-sm">
+                                            Profile
+                                            </span>
+                                        </a>
+                                        <a href class="list-group-item">
+                                            <span class="pull-left m-r thumb-sm">
+                                              <span class="mdi-av-queue wrapper"></span>
+                                            </span>
+                                            <span class="clear block m-b-none text-sm">
+                                            Add Account
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- / dropdown settings-->
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                <i class="icon-bubble fa-fw"></i>
+                                <span class="visible-xs-inline">Notifications</span>
+                                <span class="badge badge-sm up bg-danger pull-right-xs">3</span>
+                            </a>
+
+                            <!-- dropdown notifications -->
+                            <div class="dropdown-menu w-xl">
+                                <div class="panel bg-white">
+                                    <div class="panel-heading b-light bg-light">
+                                        <strong>You have <span>3</span> notifications</strong><span class="links pull-right  m-b-n-sm m-r-sm">View All</span>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href class="list-group-item">
+                                            <span class="mdi-navigation-close pull-right wrapper"></span>
+                                            <span class="pull-left m-r thumb-sm">
+                                            <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                          </span>
+                                            <span class="clear block m-b-none">
+                                            Use awesome animate.css<br>
+                                            <small class="text-muted">10 minutes ago</small>
+                                          </span>
+                                        </a>
+                                        <a href class="list-group-item">
+                                            <span class="mdi-navigation-close pull-right wrapper"></span>
+                                            <span class="pull-left m-r thumb-sm">
+                                            <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                          </span>
+                                            <span class="clear block m-b-none">
+                                            Use awesome animate.css<br>
+                                            <small class="text-muted">10 minutes ago</small>
+                                          </span>
+                                        </a>
+                                        <a href class="list-group-item">
+                                            <span class="mdi-navigation-close pull-right wrapper"></span>
+                                            <span class="pull-left m-r thumb-sm">
+                                            <img src="img/pdlogo.png" alt="..." class="img-circle">
+                                          </span>
+                                            <span class="clear block m-b-none">
+                                            Use awesome animate.css<br>
+                                            <small class="text-muted">10 minutes ago</small>
+                                          </span>
+                                        </a>
+                                    </div>
+                                     <div class="panel-footer text-sm text-center succes bg-light">
+                                        <a href="#" class="links" data-toggle="class:hide">Dismise All</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / dropdown notifications-->
+                        </li>
+                    </ul>
+
+
+                    <li class="dropdown hidden-xs">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <span class="hidden-sm"> Help </span> <i class="icon-question fa-fw"></i>
+
+                        </a>
+                      <!-- dropdown help-->
+                      <div class="dropdown-menu w-xl">
+                          <div class="panel bg-white">
+                            <div class="panel-heading b-light">
+                              <form class="navbar-form r" ui-shift="prependTo" data-target=".navbar-collapse" role="search" ng-controller="TypeaheadDemoCtrl">
+                                <div class="form-group">
+                                  <div class="input-group">
+                                    <input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control input-sm bg-light no-border rounded padder" placeholder="Search projects...">
+                                    <span class="input-group-btn">
+                                      <button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>
+                                    </span>
+                                  </div>
+                                </div>
+                              </form>
+
+                            </div>
+                              <div class="list-group">
+                                  <a href class="list-group-item">
+                                      <span class="pull-left m-r thumb-sm">
+                                          <i class="fa fa-envelope"></i>
+
+                                      </span>
+                                      <span class="clear block m-b-none text-sm">
+                                      Contact Us
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="pull-left m-r thumb-sm">
+                                        <i class="icon-question fa-fw"></i>
+                                      </span>
+                                      <span class="clear block m-b-none text-sm">
+                                      Frequently Asked Questions
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="links clear block m-b-none text-sm">
+                                      Do I need to include an image in my advert?
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="links clear block m-b-none text-sm">
+                                      Low Cost Advertising?
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="links clear block m-b-none text-sm">
+                                      Research In Advertising?
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="links clear block m-b-none text-sm">
+                                      Free Real Estate Listings?
+                                      </span>
+                                  </a>
+                                  <a href class="list-group-item">
+                                      <span class="links clear block m-b-none text-sm">
+                                      Importance Of The Custom Company Logo Design?
+                                      </span>
+                                  </a>
+                              </div>
+                              <div class="panel-footer text-sm text-center succes bg-light">
+
+                                 <a href="#" class="links" data-toggle="class:hide">Help Centre - </a>
+                                 <a href="#" class="links" data-toggle="class:hide">Report a Problem - </a>
+                                 <a href="#" class="links" data-toggle="class:hide">Cookies - </a>
+                                 <a href="#" class="links" data-toggle="class:hide">Privacy - </a>
+                                 <a href="#" class="links" data-toggle="class:hide">Terms - </a>
+                                 <span>Filed.com © 2016</span>
+                             </div>
+
+                          </div>
+                      </div>
+                      <!-- / dropdown help-->
+                    </li>
+                </ul>
+                <!-- / navbar right -->
+            </div>
+            <!-- / navbar collapse -->
+        </header>
+        <!-- / header -->
+
+
+        <!-- aside -->
+
+        <!-- / aside -->
+
+
+        <!-- content -->
+
+        <!-- /content -->
+
+        <!-- footer -->
+        <footer id="footer" class="app-footer" role="footer">
+            <div class="wrapper b-t bg-light">
+                <span class="pull-right">filed.com <a href ui-scroll="app" class="m-l-sm text-muted"><i class="fa fa-long-arrow-up"></i></a></span> &copy; 2016 Copyright.
+            </div>
+        </footer>
+        <!-- / footer -->
+
+
+
+    </div>
+
+    <script src="../libs/jquery/jquery/dist/jquery.js"></script>
+    <script src="../libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/ui-load.js"></script>
+    <script src="js/ui-jp.config.js"></script>
+    <script src="js/ui-jp.js"></script>
+    <script src="js/ui-nav.js"></script>
+    <script src="js/ui-toggle.js"></script>
+    <script src="js/ui-client.js"></script>
+
+</body>
+
+</html>

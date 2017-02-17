@@ -1,0 +1,90 @@
+.thumb-sm img {
+    max-width: 60%;
+    height: auto;
+    margin: 7px;
+
+    vertical-align: middle;
+}
+
+.vLines {
+    border: 0.5px;
+    border-style: solid;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#ccc, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#ccc, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image: -o-linear-gradient(#ccc, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #ccc, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+a.links,
+span.links {
+    color: #0070EB;
+}
+
+/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #58666e;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    background-image: none;
+
+    filter: none;
+}*/
+
+/*.dropdown-menu .divider {
+    overflow: hidden;
+
+    height: 1px;
+    margin: 0px 0;
+
+    background-color: #e5e5e5;
+}*/
+
+/*.mdi-action-done:before {
+    margin: 10px;
+
+    content: "\e623";
+
+    font-size: 25px;
+}*/
+
+/*.dropdown-menu>li>a {
+    padding: 20px 5px;
+}*/
+
+@media (min-width: 768px) {
+    /*.navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }*/
+    .app-footer {
+        margin-left: 0px;
+    }
+    a.mLinks:focus {
+        color: #0070EB;
+        border-bottom: 2px solid #0070EB;
+    }
+    /*.account {
+        min-width: 280px;
+    }*/
+}
+
+@media (min-width: 440px) and (max-width:768px) {
+    /*div.collapse.pos-rlt.navbar-collapse.bg-white-only > ul:nth-child(2) {
+        margin-left: -105px
+    }*/
+}
+
+@media (max-width: 440px) {
+    .vLines {
+        border: none;
+    }
+    /*div.collapse.pos-rlt.navbar-collapse.box-shadow.bg-white-only>ul:nth-child(2) {
+        margin-left: -10px
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 15px 15px 15px 25px;
+  }
+  .mdi-action-done:before {
+    margin-left: 90px;
+  }*/
+}
